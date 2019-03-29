@@ -52,6 +52,15 @@ public class MainActivity extends AppCompatActivity {
                     hidebutton();
                 }
 
+                else if(mStoryIndex==2)
+                {
+                    mStoryText.setText(R.string.T3_Story);
+                    mButtonA1.setText(R.string.T3_Ans1);
+                    mButtonA2.setText(R.string.T3_Ans2);
+                    mStoryIndex=3;
+
+                }
+
             }
         });
 
